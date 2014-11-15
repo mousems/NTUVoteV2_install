@@ -41,7 +41,7 @@ LOCK TABLES `account` WRITE;
 
 INSERT INTO `account` (`a_id`, `username`, `password`, `salt`, `name`, `rule`, `boothcount`)
 VALUES
-	(2,'mousems','bb3d88dcd38bdbe8af977d719613bcc7','qweasdzxcqwe','bW91c2Vtcw==','admin',0),
+	(2,'ntuvote','bb3d88dcd38bdbe8af977d719613bcc7','qweasdzxcqwe','bW91c2Vtcw==','admin',0),
 	(17,'ntuvotes1','fa350ae12cc9a54b4a346c771af87478','c614360d','小福','station',4),
 	(18,'test','fa350ae12cc9a54b4a346c771af87478','c614360d','測試','station',2);
 
