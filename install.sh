@@ -25,6 +25,7 @@ service apache2 restart &&
 rm -rf /var/www/* &&
 mv ntuvotev2/* /var/www &&
 mv config.php /var/www/application/config &&
+mv Result.sh /var/log/NTUticket &&
 cp ./ntuvotev2/.htaccess /var/www &&
 mkdir /var/log/NTUticket &&
 
