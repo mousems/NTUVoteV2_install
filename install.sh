@@ -1,4 +1,4 @@
-echo "before install , please make sure network and open-ssh server already setup.\n" &&
+echo -e "before install , please make sure network and open-ssh server already setup.\n" &&
 
 apt-get install -y git &&
 git clone https://github.com/mousems/ntuvotev2.git && 
@@ -31,8 +31,8 @@ mkdir /var/log/NTUticket &&
 
 cd /var/log/NTUticket && git init && chmod 777 ./ && chmod -R 777 .git
 
-sudo apt-get install -r php5-json &&
+sudo apt-get install -y php5-json &&
 
 
 
-echo "\n\n\ninstall complete \n    1.Please connect to MySQL and import SQL file. 'ntuvote.sql'\n    2.Edit /var/www/application/config/databases.php for MySQL settings.\n    3.Edit /var/www/application/config/config.php for 'URL'.\n    4.visit website , administrator account: ntuvote/ntuvote\!@#$%\n\n\n\n\n"
+echo -e "\n\n\ninstall complete \n    1.Please connect to MySQL and import SQL file. 'ntuvote.sql'\n    2.Edit /var/www/application/config/databases.php for MySQL settings.\n    3.Edit /var/www/application/config/config.php for 'URL'.\n    4.visit website , administrator account: ntuvote/ntuvote\!@#$%\n\n\n\n\n"
