@@ -7,6 +7,11 @@ apt-get update
 #clone
 git clone https://github.com/mousems/ntuvotev2.git 
 
+# checkout tag 2.1
+cd ntuvotev2
+git checkout 2.1
+cd ..
+
 #install LAMP
 tasksel install lamp-server 
 apt-get update 
